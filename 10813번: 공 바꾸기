@@ -4,7 +4,6 @@ const rl=readline.createInterface({
     output:process.stdout
 });
 
-
 rl.question('',(input)=>{
     let [N, M] = input.split(' ').map(Number);
     let arr = new Array(N)
@@ -24,5 +23,4 @@ rl.question('',(input)=>{
             rl.close();
         }
     })
-    
 })
