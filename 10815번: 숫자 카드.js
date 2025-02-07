@@ -1,4 +1,3 @@
-//https://www.acmicpc.net/problem/10815
 const readline=require('readline');
 const rl=readline.createInterface({
     input:process.stdin,
@@ -7,10 +6,12 @@ const rl=readline.createInterface({
 
 let inputLines = [];
 
+//배열에 4줄 다 담기
 rl.on('line',(line)=>{
     inputLines.push(line);
 });
 
+//input을 다 처리한 뒤 
 rl.on('close',()=>{
     let N_arr=new Set(inputLines[1].split(' ').map(Number));
     let M_arr=inputLines[3].split(' ').map(Number);
