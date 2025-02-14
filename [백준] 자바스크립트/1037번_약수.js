@@ -1,4 +1,5 @@
 //https://www.acmicpc.net/problem/1037
+
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
