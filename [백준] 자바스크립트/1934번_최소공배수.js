@@ -1,4 +1,6 @@
+//https://www.acmicpc.net/problem/1934
 //꼭 다시보기...!
+
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
