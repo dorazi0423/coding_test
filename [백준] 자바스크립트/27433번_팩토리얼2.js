@@ -1,3 +1,6 @@
+//https://www.acmicpc.net/problem/27433
+
+//1번째 방법
 //그냥 반복문으로 했을 때
 const readline = require('readline');
 const rl = readline.createInterface({
@@ -24,6 +27,8 @@ rl.question('', (input) => {
     rl.close();
 });
 
+
+//2번째 방법
 //재귀함수 사용
 const readline = require('readline');
 const rl = readline.createInterface({
