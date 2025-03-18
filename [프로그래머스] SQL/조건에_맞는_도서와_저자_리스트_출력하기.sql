@@ -1,4 +1,4 @@
-//https://school.programmers.co.kr/learn/courses/30/lessons/144854
+--https://school.programmers.co.kr/learn/courses/30/lessons/144854
 
 SELECT b.book_id, a.author_name, to_char(b.published_date, 'YYYY-MM-DD')
 from book b inner join author a
