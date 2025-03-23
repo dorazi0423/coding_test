@@ -9,19 +9,19 @@ class Main {
             cnt++;
             num /= way;
             for(int i = 1; i <=3; i++){
-                doFunc(num, way, cnt);
+                doFunc(num, i, cnt);
             }
         }else if (way == 2 && num % 2 == 0){
             cnt ++;
             num /= way;
             for(int i = 1; i<= 3; i++){
-                doFunc(num, way, cnt);
+                doFunc(num, i, cnt);
             }
-        }else if(num >= 2){
+        }else if(way == 1 && num >= 2){
             cnt++;
             num -= 1;
             for(int i= 1; i<= 3; i++){
-                doFunc(num, way, cnt);
+                doFunc(num, i, cnt);
             }
         }
         if (num == 1 && cnt < min){
