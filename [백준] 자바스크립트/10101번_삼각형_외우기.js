@@ -1,4 +1,4 @@
-//https://www.acmicpc.net/problem/10101
+//https://www.acmicpc.net/problem/10101 
 
 const input = require("fs").readFileSync("/dev/stdin").toString().split("\n").map(Number);
 const sum = input.reduce((cur, value)=>cur+value, 0);
